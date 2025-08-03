@@ -8,8 +8,6 @@ A lightweight Python script that detects file changes using SHA-256 hashing.
 - Configurable check intervals (default: 30 sec)
 - Logs changes to `logs/file_changes.log`
 
-## Quick Start
-```bash
 # Monitor specific files
-python main.py C:\Windows\System32\*.dll --interval 60
+python main.py filename.dll --interval 60
 
